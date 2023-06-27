@@ -1,4 +1,3 @@
-list=["","Leo","Demon Slayer-Kimetsu No Yaiba: To the Swordsmith Village","Pathu thala","Viduthalai","Jailer"]
 def makepayment(Amount):
     print("\n\t\t\t\tSelect Bank Account")
     print("\n\t\t\t\t1.SBI   2.Indian   3.Karur   4.IOB   5.UPI\t\n\n")
@@ -97,12 +96,6 @@ def info(select,theatre_names,time,Movie_Name):
     nxt=input("\n\t\t\t\tPress y Key To Make Payment\t")
     if(nxt=='y'):
         makepayment(Amountt)
-
-
-
-
-
-
 def theatre(movie):
     
     if movie==1:
@@ -170,11 +163,6 @@ def theatre(movie):
         time=["","02:30 PM","11:30 PM","01:30 PM","09:30 PM","11:30 PM","03:30 PM","05:30 AM","07:30 PM"]
         select=int(input("Select Any Show and Time\t "))
         info(select,theatre_names,time,movie)
-            
-
-
-
-
 def details(movie):
         if movie==1:
                         print(" Leo is an upcoming Indian Tamil-language action film directed by Lokesh Kanagaraj who co-wrote the script with Rathna Kumar and Deeraj Vaidy.it is produced by S. S. Lalit Kumar, under Seven Screen Studio , co-produced by Jagadish Palanisamy")
@@ -215,10 +203,7 @@ def details(movie):
             if(e=='y'):
                 theatre(movie)
 
-
-
-
-
+list=["","Leo","Demon Slayer-Kimetsu No Yaiba: To the Swordsmith Village","Pathu thala","Viduthalai","Jailer"]
 print("\t\t\t\t--------------------")
 print("\t\t\t\tMovie Ticket Booking")
 print("\t\t\t\t--------------------")

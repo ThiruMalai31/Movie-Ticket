@@ -1,0 +1,9 @@
+Name:Thiru
+Phone_Number:9384312020
+No of Tickets:1
+Seat_Type2
+Movie_NameLeo
+Theatre_Name:Lakshan
+Time:10:00 AM
+Total Amount:200
+
